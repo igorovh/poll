@@ -38,8 +38,11 @@ Only moderator can use these commands.
 ### Examples
 
 #### `!qvote`
+![qvote](https://github.com/igorovh/poll/assets/37638480/2cdf550a-a686-48c1-814f-0e99526ec0c6)
 
 #### `!cvote`
+
+![cpoll](https://github.com/igorovh/poll/assets/37638480/1cab9f62-068d-44b5-9173-7b9537409f08)
 
 ### Building / Development
 
@@ -52,3 +55,5 @@ Then copy this script and follow the video.
 ```html
 <iframe src="https://poll.igor.ovh/" frameborder="0" width="100%" height="100%">
 ```
+
+https://github.com/igorovh/poll/assets/37638480/a20b083c-6efe-4702-b151-738259573033
