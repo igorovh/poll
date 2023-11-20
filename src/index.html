@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>poll</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script
+			src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+			integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+			crossorigin="anonymous"></script>
+		<script src="js/twitch/tmi.js"></script>
+		<script src="js/index.js" type="module"></script>
+	</head>
+	<body>
+		<main>
+			<div class="poll__question">
+				<div class="poll__question--header">What do you like more: dogs or cats?</div>
+				<div class="poll__question--description">Write the number next to the answer to vote for it.</div>
+			</div>
+			<div class="options">
+				<div class="option">
+					<div class="option__header">
+						<div class="option__name">1. Dogs</div>
+						<div class="option__stats">— 0%</div>
+					</div>
+					<div class="option__poll">
+						<div class="option__fill"></div>
+					</div>
+				</div>
+				<div class="option">
+					<div class="option__header">
+						<div class="option__name">2. Cats</div>
+						<div class="option__stats">— 0%</div>
+					</div>
+					<div class="option__poll">
+						<div class="option__fill"></div>
+					</div>
+				</div>
+			</div>
+			<div class="poll__stats">
+				<span>Total votes: <span class="poll__stats--votes">0</span></span>
+				<span class="poll__stats--time">The poll will end in ?s</span>
+			</div>
+		</main>
+	</body>
+</html>

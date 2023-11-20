@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+
+body {
+    background: transparent;
+}
+
+main {
+    display: flex;
+    min-width: 480px;
+    max-width: 512px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    background: rgba(27, 27, 50, 0.95);
+    font-family: 'Lexend', sans-serif;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.poll__question--header {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.poll__question--description {
+    color: #A3A3A3;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.option__header {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.option__name {
+    font-weight: bold;
+    word-break: break-all;
+    max-width: 320px;
+}
+
+.option__stats {
+    color: #A3A3A3;
+}
+
+.option__poll {
+    display: flex;
+    width: 320px;
+    height: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 24px;
+    background: #141325;
+}
+
+.option__fill {
+    display: flex;
+    width: 0px;
+    flex: 1 0 0;
+    background: #5A71B0;
+    border-radius: 24px;
+    transition: width 0.5s;
+}
+
+.poll__stats {
+    font-size: 12px;
+    color: #A3A3A3;
+    display: flex;
+    flex-direction: column;
+
+}
